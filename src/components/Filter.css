@@ -1,0 +1,19 @@
+.Filter-list {
+    list-style: none;
+    text-align: left;
+   padding-left: 20%;
+}
+
+.Filter-list label {
+   padding: 2% 5%;
+   font-size: 1.25rem;
+}
+
+.Filter-list button {
+    margin: 2% ;
+    padding:2%;
+    width: 80%;
+    border-radius: 10px;
+    border: 1px solid rgb(152, 201, 248);
+    background-color: aliceblue;
+}

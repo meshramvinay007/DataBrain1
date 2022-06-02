@@ -1,0 +1,19 @@
+.App {
+  text-align: center;
+  /* background-color: ; */
+}
+
+.Card {
+  float: left;
+  height: 500px;
+  width: 270px;
+  border: 1px solid black;
+  border-radius: 20px;
+  padding: 1% 2%;
+  margin: 1% 2%;
+}
+
+.Card img {
+  width: 50%;
+  min-height: 150px;
+}

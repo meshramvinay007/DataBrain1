@@ -1,0 +1,86 @@
+
+.Navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 2px 11px 0 rgba(155, 188, 227, 0.29);
+    background-color: #4b535c;
+    height: 70px;
+    width: 100%;
+    color: white;
+  }
+  
+  .Navbar .fa-bars {
+    
+    display: none;
+  }
+  
+  .Navbar .nav-text {
+    font-size: 18px;
+    margin: 0;
+    margin-left: 20px;
+  }
+  
+  .Notification {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 14px;
+    margin-left: auto;
+  }
+  
+  .Notification .fa-bell {
+    font-size: 20px;
+    margin-right: 20px;
+    color: rgb(180, 177, 177);
+  }
+  
+  .dot {
+    position: relative;
+    background-color: white;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    border: 3px solid #3a424a;
+    left: 20px;
+    bottom: 6px;
+  }
+  
+  .Notification div {
+    padding: 8px 7px 9px 9px;
+    background-color: #3a424a;
+    font-size: 10px;
+    letter-spacing: 0.14px;
+    margin: 0 7px 0 0;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    border-radius: 50%;
+  }
+  
+  .Notification p {
+    margin: 0;
+  }
+
+  @media(max-width:600px){
+    .Navbar .fa-bars {
+  
+        display:contents;
+        margin-left: 30px;
+      }
+
+      
+      .Notification {
+   
+        margin-left: 150px;
+     
+    }
+  }
+
+  @media (max-width:450px) {
+      
+  .Notification {
+    margin-left: 30px;
+  }
+  }
